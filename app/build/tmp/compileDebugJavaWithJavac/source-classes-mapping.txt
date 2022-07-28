@@ -1,0 +1,2 @@
+com/azmovhudstc/playmarketcloneui/BuildConfig.java
+ com.azmovhudstc.playmarketcloneui.BuildConfig

@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.azmovhudstc.playmarketcloneui"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\Hud\.gradle\caches\transforms-3\a2a2153cf26f9692dead9a393f77f976\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.PlayMarketCloneUI" >
+20-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:11:9-55
+21        <activity
+21-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="com.azmovhudstc.playmarketcloneui.MainActivity"
+22-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:13:13-41
+23            android:exported="true" >
+23-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:14:13-36
+24            <intent-filter>
+24-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:16:17-69
+25-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:18:17-77
+27-->D:\AndroidStudioProjects\playMarketCloneUI\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hud\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+32            android:name="androidx.startup.InitializationProvider"
+32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hud\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+33            android:authorities="com.azmovhudstc.playmarketcloneui.androidx-startup"
+33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hud\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+34            android:exported="false" >
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hud\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+35            <meta-data
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hud\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hud\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+37                android:value="androidx.startup" />
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Hud\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+38            <meta-data
+38-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Hud\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Hud\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+40                android:value="androidx.startup" />
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Hud\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+41        </provider>
+42    </application>
+43
+44</manifest>
