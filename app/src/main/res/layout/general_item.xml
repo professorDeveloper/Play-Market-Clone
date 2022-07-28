@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="wrap_content">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="30dp"
+       android:layout_marginTop="10dp"
+       android:gravity="center"
+       android:orientation="horizontal"
+
+       android:layout_marginBottom="10dp">
+       <TextView
+           android:id="@+id/title_general"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Game for you"
+           android:layout_marginTop="10dp"
+           android:layout_marginStart="10dp"
+           android:textSize="20sp"
+           android:textColor="@color/black"
+           android:layout_marginBottom="10dp"
+           android:textStyle="bold"
+           android:textAlignment="center"/>
+       <ImageView
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:tint="@color/black"
+           android:src="@drawable/ic_baseline_arrow_forward_24"
+           android:layout_gravity="center"
+           android:layout_marginStart="90dp"
+           tools:ignore="UseAppTint" />
+
+   </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rv_inside"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
